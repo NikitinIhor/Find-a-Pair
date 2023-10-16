@@ -67,7 +67,7 @@ const checkCards = () => {
 const theEnd = () => {
     setTimeout(()=> {
         if(checked===12){
-            p.textContent = `${attempt} попыток`
+            p.textContent = `${attempt} attempts`
             restart.style.display='block'
             clearInterval(time)
             popup.style.display ='block'
